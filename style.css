@@ -14,14 +14,14 @@ Header, Nav, Section, Aside, Footer {
 header{
  
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   
 }
 
 nav{
   
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   margin-top: 10px;
   
 }
@@ -30,7 +30,7 @@ section{
   text-align: center;
   float: left;
   width: 495px;
-  padding: 20px;
+  padding: 20px 10px;
   height: 210px;
   width : 495px;
   margin-top: 20px;
@@ -45,7 +45,7 @@ aside{
   float: right;
   padding: 20px;
   height: 210px;
-  width : 360px;
+  width : 385px;
   margin-top: 20px
 }
 
@@ -55,7 +55,9 @@ article{
       
       color: #ebebeb;
       background: #777;
-      padding: 10px;
+      padding: 5px ;
+      
+
         }
 
 h1, p{
@@ -65,15 +67,18 @@ h1, p{
   }
 
   h1{
-    height: 30px;
-   margin: 0 20px;
+    height: 20px;
+   margin: 0 10px;
+   padding: 10px 0;
+   
     
   }
 
   p{
-   height: 30px;
-   margin: 10px 20px; 
-    
+   height: 20px;
+   margin: 10px 10px; 
+   padding: 10px 0;
+  ;
   }
 
 
@@ -81,7 +86,7 @@ footer{
   clear: both;
   overflow: auto;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   margin-top: 10px;
   
 }
